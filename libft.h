@@ -6,7 +6,7 @@
 /*   By: dwilliam <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/06/05 19:46:25 by dwilliam          #+#    #+#             */
-/*   Updated: 2017/06/19 11:29:24 by dwilliam         ###   ########.fr       */
+/*   Updated: 2017/08/01 17:39:51 by dwilliam         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ void	ft_putendl(char const *s);
 void	ft_putstr_fd(char const *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
 void	ft_putendl_fd(char const *s, int fd);
-void    *ft_realloc(void *ptr, size_t size);
+void	*ft_realloc(void *ptr, size_t size);
 size_t	ft_strlen(const char *s);
 char	*ft_strdup(const char *s1);
 char	*ft_strcpy(char *s1, const char *s2);
